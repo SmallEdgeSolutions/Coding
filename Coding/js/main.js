@@ -118,3 +118,23 @@ function repeatStr (n, s) {
   console.log(aurora.describe())
   console.log(glacius.describe())
 
+  // Codewars 8 Kyu Named Beginner Series # 1 School Paperwork
+
+  // first attempted was like this
+  function paperwork(n, m) {
+      return n <= 0 || m < 0 ? 0 : n * m
+  }
+  
+  // 1st submitted was
+  
+  function paperwork(n, m){
+      if( n <= 0 || m < 0){
+          return 0
+      }else{
+          return n * m
+      }
+  }
+  
+  // actually submitted 
+  
+  const paperwork = (n, m) => n <= 0 || m < 0 ?  0 : n * m
