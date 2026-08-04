@@ -158,3 +158,10 @@ function lovefunc(flower1, flower2){
      return true
    }
 }
+
+// Did an 8Kyu Named Remove First and Last Character of a string
+
+function removeChar(str){
+    return str.slice(1, str.length - 1) // a simpler solution would've been return str.slice(1, -1)
+  };
+  
