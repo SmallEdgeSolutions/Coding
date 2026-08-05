@@ -163,5 +163,19 @@ function lovefunc(flower1, flower2){
 
 function removeChar(str){
     return str.slice(1, str.length - 1) // a simpler solution would've been return str.slice(1, -1)
-  };
-  
+};
+
+
+// Did an 8 Kyu Named Square(n)Sum
+
+/*
+Complete the square sum function so that it squares each number passed into it and then sums the results together.
+
+*/
+
+
+// first try submit :)
+
+function squareSum(numbers){
+    return numbers.reduce((acc, c) => (c*c) + acc , 0)
+}
