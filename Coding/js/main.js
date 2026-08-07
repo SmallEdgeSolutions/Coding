@@ -179,3 +179,14 @@ Complete the square sum function so that it squares each number passed into it a
 function squareSum(numbers){
     return numbers.reduce((acc, c) => (c*c) + acc , 0)
 }
+
+// Did an 8 Kyu Named Find the smallest integer in the array
+
+// My first though was to use reduce, then I started thinking of map and Math.min to just return the smallest integer
+
+//first attempt and submitted
+
+function findSmallestInt(arr) {
+    return arr.reduce((min, cur) => cur < min ? cur : min);
+}
+
