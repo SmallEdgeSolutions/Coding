@@ -190,3 +190,7 @@ function findSmallestInt(arr) {
     return arr.reduce((min, cur) => cur < min ? cur : min);
 }
 
+// Completed an 8Kyu named Function 1 hello world
+
+let greet = ()  => 'hello world'
+
