@@ -194,3 +194,15 @@ function findSmallestInt(arr) {
 
 let greet = ()  => 'hello world'
 
+// Did an 8 Kyu Named Covert a String to a Number!
+
+// first attempt and submitted I saw this as one of the solutions on Code Wars
+
+const stringToNumber = function(str){
+    let num = +str
+    return num;
+}
+
+// refactored to simple
+
+const stringToNumber = (str) => +str
