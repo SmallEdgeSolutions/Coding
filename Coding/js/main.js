@@ -206,3 +206,17 @@ const stringToNumber = function(str){
 // refactored to simple
 
 const stringToNumber = (str) => +str
+
+// Learned a new way to consider numbers in an 8 Kyu Named Grasshopper - Summation
+// no excuse as to why I didn't complete it but this is the answer I saw
+
+var summation = function (num) {
+    let result = 0;
+    for (var i = 1; i <= num; i++) {
+      result += i;
+    }
+    
+    return result;
+}
+
+// What I learned was that a for loop (which was what I thought first to try) would've served me better than trying to solve it in one line, I overthought a possible correct answer
