@@ -220,3 +220,15 @@ var summation = function (num) {
 }
 
 // What I learned was that a for loop (which was what I thought first to try) would've served me better than trying to solve it in one line, I overthought a possible correct answer
+
+//an 8Kyu named Counting sheep
+
+function countSheeps(sheep) {
+    return sheep.filter(baa => baa === true).length
+    
+    }
+    
+    // count all of the true elements, do not add any of the null or undefined elements in the array.
+    /* At first I tried to do a for loop, Though I realized that filter could do the job. I learned when applying a stricter usage with filter to check for elements with true. That ensures that it will only count true elements. Also I almost forgot the .length at the end */
+    
+    
