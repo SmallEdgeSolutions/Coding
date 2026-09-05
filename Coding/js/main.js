@@ -226,9 +226,20 @@ var summation = function (num) {
 function countSheeps(sheep) {
     return sheep.filter(baa => baa === true).length
     
-    }
+}
     
-    // count all of the true elements, do not add any of the null or undefined elements in the array.
-    /* At first I tried to do a for loop, Though I realized that filter could do the job. I learned when applying a stricter usage with filter to check for elements with true. That ensures that it will only count true elements. Also I almost forgot the .length at the end */
-    
-    
+// count all of the true elements, do not add any of the null or undefined elements in the array.
+/* At first I tried to do a for loop, Though I realized that filter could do the job. I learned when applying a stricter usage with filter to check for elements with true. That ensures that it will only count true elements. Also I almost forgot the .length at the end */
+
+
+// Completed an 8Kyu Named Remove string Spaces
+
+// on my first attempt I just did x.trim('') and it was wrong because it only removed the space in the beginning and the end of a string
+
+// then I remembered something older like when reversing a string and did x.split(' ').join('')
+
+function noSpace(x){
+    return x.split(' ').join('')
+}
+
+// I learned when in doubt to go to a solution I know can work first and remember other times I have done something similar
