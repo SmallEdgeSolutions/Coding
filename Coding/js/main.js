@@ -258,3 +258,4 @@ function doubleInteger(i){
 // refactored answer to const doubleInteger = i => { i *= 2; return i}
 
 // What I learned is to read the problem slower and even if it is messy, get it to work first then refactor
+// as of now I am thinking of pivoting to arrays 8 Kyu then move to 7 Kyu
