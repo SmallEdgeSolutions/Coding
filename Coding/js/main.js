@@ -243,3 +243,18 @@ function noSpace(x){
 }
 
 // I learned when in doubt to go to a solution I know can work first and remember other times I have done something similar
+
+// Completed an 8 Kyu Named You Can't Code Under Pressure # 1
+// first solution I misread the task and tried to square it and not double it, which resulted in 
+// const = doubleInteger = i => {i *= i; return i} failed
+
+// second solution was the correct one
+
+function doubleInteger(i){
+    i *= 2
+    return i;
+}
+
+// refactored answer to const doubleInteger = i => { i *= 2; return i}
+
+// What I learned is to read the problem slower and even if it is messy, get it to work first then refactor
