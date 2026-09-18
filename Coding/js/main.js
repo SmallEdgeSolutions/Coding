@@ -198,10 +198,10 @@ let greet = ()  => 'hello world'
 
 // first attempt and submitted I saw this as one of the solutions on Code Wars
 
-const stringToNumber = function(str){
+/*const stringToNumber = function(str){
     let num = +str
     return num;
-}
+} */
 
 // refactored to simple
 
@@ -259,3 +259,15 @@ function doubleInteger(i){
 
 // What I learned is to read the problem slower and even if it is messy, get it to work first then refactor
 // as of now I am thinking of pivoting to arrays 8 Kyu then move to 7 Kyu
+
+// did a 7Kyu with lots of effort that was called Disemvowel Trolls
+// my first solution was sloppy and I couldn't get it to work, I found out that I didn't mark the vowels as string types lol
+// my final solution after taking some time to think about it, this is what I came up with
+
+function disemvowel(str) {
+    const vowel = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']
+    return str.split('').filter(v => !vowel.includes(v)).join('')
+    ;
+  }
+
+// What I learned is that I'm not super familiar with how .includes or .filter works and need to study up on them as I am opposed to regex at this moment
