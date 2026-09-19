@@ -271,3 +271,14 @@ function disemvowel(str) {
   }
 
 // What I learned is that I'm not super familiar with how .includes or .filter works and need to study up on them as I am opposed to regex at this moment
+
+// I attempted a 7Kyu and didn't move on fast enough, then I did an 8Kyu similar to the 7Kyu, It was named Covert number to reversed array of digits
+
+// I started on the right track, I think I'm just out of practice, I was wiping the floor with 8Kyus and now I started to struggle with something relatively simple.. anyway my solution isn't the shortest but it worked
+
+function digitize(n) {
+    const num = String(n)
+    return n.split('').reverse().map(Number)
+  }
+
+  // What I did learn from the failed 7Kyu is the spread operator which I had no clue about and fell into a trap of converting lol, I've added it to my study material. I won't get got again.
