@@ -282,3 +282,10 @@ function digitize(n) {
   }
 
   // What I did learn from the failed 7Kyu is the spread operator which I had no clue about and fell into a trap of converting lol, I've added it to my study material. I won't get got again.
+
+  // did an 8Kyu name d Covert a Boolean to a String
+  // my first solution worked
+
+  function booleanToString(b){
+    return b === true ?  'true' : 'false'
+ }
